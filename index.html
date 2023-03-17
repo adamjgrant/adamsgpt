@@ -10,16 +10,31 @@
 
 <body>
     <nav data-component="navbar">
+        <button role="button" class="toggle"><ion-icon name="menu-outline"></ion-icon></button>
         <a href="./">Adam's GPT</a>
+        <button role="button"><ion-icon name="add-outline"></ion-icon></button>
     </nav>
     <main>
-        <aside data-component="sidebar"></aside>
+        <aside data-component="sidebar">
+            <ion-icon name="folder-outline"></ion-icon>
+            <ion-icon name="folder-open-outline"></ion-icon>
+            <ion-icon name="chatbox-outline"></ion-icon>
+            <ion-icon name="chatbox-outline"></ion-icon>
+        </aside>
         <div>
             <ul>
-                <li data-component="message">...</li>
+                <li data-component="message">...
+                    <ion-icon name="create-outline"></ion-icon>
+                </li>
                 <li data-component="message">...</li>
             </ul>
-            <div data-component="prompt"></div>
+            <div data-component="prompt">
+                <div class="outline">
+                    <input type="text" />
+                    <ion-icon name="send-outline"></ion-icon>
+                </div>
+                <ion-icon name="refresh-outline"></ion-icon>
+            </div>
         </div>
     </main>
 
@@ -42,5 +57,9 @@
     <!-- navbar -->
     <script type="module" src="./components/navbar/navbar.js"></script>
     <link rel="stylesheet" href="./components/navbar/navbar.css" />
+
+    <!-- https://ionic.io/ionicons/usage -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
