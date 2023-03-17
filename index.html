@@ -9,6 +9,20 @@
 </head>
 
 <body>
+    <nav data-component="navbar">
+        <a href="./">Adam's GPT</a>
+    </nav>
+    <main>
+        <aside data-component="sidebar"></aside>
+        <div>
+            <ul>
+                <li data-component="message">...</li>
+                <li data-component="message">...</li>
+            </ul>
+            <div data-component="prompt"></div>
+        </div>
+    </main>
+
     <script type="module" src="mozart.js"></script>
 
     <!-- Components -->
@@ -24,5 +38,9 @@
     <!-- prompt-->
     <script type="module" src="./components/prompt/prompt.js"></script>
     <link rel="stylesheet" href="./components/prompt/prompt.css" />
+
+    <!-- navbar -->
+    <script type="module" src="./components/navbar/navbar.js"></script>
+    <link rel="stylesheet" href="./components/navbar/navbar.css" />
 </body>
 </html>

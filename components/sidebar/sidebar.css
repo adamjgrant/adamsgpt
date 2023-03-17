@@ -1,3 +1,4 @@
 [data-component~='sidebar'] {
-
+  background: var(--active-color);
+  color: white;
 }
