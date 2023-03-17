@@ -12,3 +12,16 @@
     text-decoration: none;
     color: var(--active-text-color);
 }
+
+[data-component~='navbar'] button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    line-height: normal;
+    cursor: pointer;
+    outline: none;
+    color: var(--active-text-color);
+}
+  
