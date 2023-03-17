@@ -20,7 +20,12 @@
     --avatar-width: 22px;
     --navbar-height: 50px;
     --sidebar-width: 325px;
-    font-size: 15px;
+
+    /* Breakpoints */
+    --medium-width: 750px;
+    --large-width: 1000px;
+
+    font-size: 15px; /* Sets 1rem */
 }
 
 body, html { 

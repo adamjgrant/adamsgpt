@@ -13,3 +13,9 @@
 [data-component~='sidebar'].show {
   display: block;
 }
+
+@media (min-width: var(--medium-width)) {
+  [data-component~='sidebar'] {
+    display: block;
+  } 
+}
