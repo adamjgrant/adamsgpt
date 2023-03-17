@@ -4,9 +4,10 @@
   display: none;
   position: absolute;
   left: 0;
-  right: 10vw;
   top: var(--navbar-height);
   bottom: 0;
+  width: var(--sidebar-width);
+  z-index: 1;
 }
 
 [data-component~='sidebar'].show {
