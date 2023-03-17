@@ -2,4 +2,13 @@
   background: var(--active-color);
   color: white;
   display: none;
+  position: absolute;
+  left: 0;
+  right: 10vw;
+  top: var(--navbar-height);
+  bottom: 0;
+}
+
+[data-component~='sidebar'].show {
+  display: block;
 }
