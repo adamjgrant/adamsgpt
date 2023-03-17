@@ -1,3 +1,8 @@
 [data-component~='message'] {
+  padding: 25px;
+  border-bottom: 1px solid var(--border-grey);
+}
 
+[data-component~='message'].from {
+    background: var(--soft-grey);
 }

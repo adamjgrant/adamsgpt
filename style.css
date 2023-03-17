@@ -8,7 +8,9 @@
     --active-color: #2864F4;
     --active-text-color: white;
     --text-color: #343541;
-    --soft-grey: #8E97A0;
+    --shadow-grey: #b1b9c2;
+    --border-grey: #eAeAeA;
+    --soft-grey: #f2f5f7;
     --icon-width: 15px;
     font-size: 15px;
 }

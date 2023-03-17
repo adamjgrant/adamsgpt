@@ -1,23 +1,23 @@
 [data-component~='prompt'] {
-  padding: 0px 25px;
+  padding: 15px;
   display: flex;
   align-items: center;
-  margin-bottom: 25px;
+  background: var(--soft-grey);
 }
 
 [data-component~='prompt'] .outline {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;
-  text-shadow: 0px 0px 5px var(--soft-grey);
+  box-shadow: 0px 0px 5px var(--shadow-grey);
   display: flex;
   align-items: center;
   width: 100%;
+  background: white;
 }
 
 [data-component~='prompt'] input[type="text"] {
     border: none;
     background-color: transparent;
-    padding: 0;
     margin: 0;
     font: inherit;
     line-height: normal;
@@ -27,7 +27,7 @@
 }
 
 [data-component~='prompt'] ion-icon {
-  color: var(--soft-grey);
+  color: var(--shadow-grey);
 }
 
 [data-component~='prompt'] ion-icon[name="send-outline"] {
