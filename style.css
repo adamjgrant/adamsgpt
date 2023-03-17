@@ -14,3 +14,30 @@ body {
     flex-direction: column;
     font-family: sans-serif;
 }
+
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=d91b143b-44d6-44c4-afbb-c26ce8a311d1&fontids=706733,706736,812426,812429,1301013");
+@font-face{
+    font-family:"Neuzeit S LT W01 Book";
+    src:url("Fonts/706733/840b8bdf-7d26-449a-9620-8cb6663f18cc.eot?#iefix");
+    src:url("Fonts/706733/840b8bdf-7d26-449a-9620-8cb6663f18cc.eot?#iefix") format("eot"),url("Fonts/706733/d741af6b-26f4-4e34-b55d-432ccade3280.woff2") format("woff2"),url("Fonts/706733/77aaeb7b-86f4-47a1-8196-74a660dd0919.woff") format("woff"),url("Fonts/706733/efdf74e6-bfd4-466d-93fd-4f8f4d55b80c.ttf") format("truetype");
+}
+@font-face{
+    font-family:"NeuzeitSLTW01-BookHeavy";
+    src:url("Fonts/706736/74c31844-4217-4fe8-82f7-88a5075de2e8.eot?#iefix");
+    src:url("Fonts/706736/74c31844-4217-4fe8-82f7-88a5075de2e8.eot?#iefix") format("eot"),url("Fonts/706736/3da0a3e3-3dff-405c-a0b2-0b0050b21771.woff2") format("woff2"),url("Fonts/706736/a1476bae-b118-4e9d-b711-c84091d9bc16.woff") format("woff"),url("Fonts/706736/096111d9-3ba2-4828-ae9a-29fb4e03c0b1.ttf") format("truetype");
+}
+@font-face{
+    font-family:"DINNeuzeitGroteskLTW01-_812426";
+    src:url("Fonts/812426/b41558bd-2862-46c0-abf7-536d2542fa26.eot?#iefix");
+    src:url("Fonts/812426/b41558bd-2862-46c0-abf7-536d2542fa26.eot?#iefix") format("eot"),url("Fonts/812426/5cee8d6e-89ad-4d8c-a0ac-584d316b15ae.woff2") format("woff2"),url("Fonts/812426/388ef902-2c31-4818-abb1-a40dcd81f6d6.woff") format("woff"),url("Fonts/812426/29c60077-2614-4061-aa8d-5bcfdf7354bb.ttf") format("truetype");
+}
+@font-face{
+    font-family:"DINNeuzeitGroteskLTW01-_812429";
+    src:url("Fonts/812429/d0438cc6-fa6a-49ee-81cb-eff243f8d6ae.eot?#iefix");
+    src:url("Fonts/812429/d0438cc6-fa6a-49ee-81cb-eff243f8d6ae.eot?#iefix") format("eot"),url("Fonts/812429/a37a2562-18d4-4f77-a23f-bfd38834022e.woff2") format("woff2"),url("Fonts/812429/3c2c3bda-54b5-4286-abfb-efc1e76e8758.woff") format("woff"),url("Fonts/812429/e069b0be-09dd-4d60-a5de-902d3350cb3a.ttf") format("truetype");
+}
+@font-face{
+    font-family:"DIN Neuzeit Grotesk W01 Bold";
+    src:url("Fonts/1301013/a0eb948f-0b54-4964-8381-5e97e18cce04.eot?#iefix");
+    src:url("Fonts/1301013/a0eb948f-0b54-4964-8381-5e97e18cce04.eot?#iefix") format("eot"),url("Fonts/1301013/bb96c749-749d-48c4-8d63-ae33cc6608bc.woff2") format("woff2"),url("Fonts/1301013/1ac88570-6bba-457a-ad08-ff56a2fcd03b.woff") format("woff"),url("Fonts/1301013/d98a8c18-8404-4699-a1ad-d9ecb49c0f1d.ttf") format("truetype");
+}
