@@ -18,6 +18,11 @@
     width: calc(100% - (var(--avatar-width) + var(--avatar-message-margin)));
 }
 
+[data-component~='message'] p {
+    margin: 0;
+    line-height: 1.34rem;
+}
+
 [data-component~='message'].from {
     background: var(--soft-grey);
 }
