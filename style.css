@@ -8,10 +8,15 @@
     --active-color: #2864F4;
     --active-text-color: white;
     --text-color: #343541;
+
+    --gpt-color: #12B886;
+
     --shadow-grey: #b1b9c2;
     --border-grey: #eAeAeA;
     --soft-grey: #f2f5f7;
+
     --icon-width: 15px;
+    --avatar-width: 22px;
     font-size: 15px;
 }
 

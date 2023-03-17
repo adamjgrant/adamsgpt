@@ -1,8 +1,27 @@
 [data-component~='message'] {
   padding: 25px;
   border-bottom: 1px solid var(--border-grey);
+  display: flex;
+  justify-content: space-between;
+  --avatar-message-margin: 10px;
+}
+
+[data-component~='message'] .avatar {
+    border-radius: 3px;
+    background-color: var(--border-grey);
+    width: var(--avatar-width);
+    height: var(--avatar-width);
+    margin-right: var(--avatar-message-margin);
+}
+
+[data-component~='message'] .text {
+    width: calc(100% - (var(--avatar-width) + var(--avatar-message-margin)));
 }
 
 [data-component~='message'].from {
     background: var(--soft-grey);
+}
+
+[data-component~='message'].from .avatar {
+    background-color: var(--gpt-color);
 }
