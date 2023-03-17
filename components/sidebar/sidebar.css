@@ -14,7 +14,7 @@
   display: block;
 }
 
-@media (min-width: var(--medium-width)) {
+@media (min-width: 750px) {
   [data-component~='sidebar'] {
     display: block;
   } 

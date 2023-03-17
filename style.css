@@ -22,6 +22,9 @@
     --sidebar-width: 325px;
 
     /* Breakpoints */
+    /* 🚨 Apparently, these can't be used in media queries yet.
+       https://stackoverflow.com/a/40723076/393243
+    */
     --medium-width: 750px;
     --large-width: 1000px;
 
