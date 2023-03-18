@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   background: var(--soft-grey);
+  height: var(--prompt-height);
 }
 
 [data-component~='prompt'] .outline {

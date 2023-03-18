@@ -1,0 +1,24 @@
+[data-component~='main'] {
+    height: calc(100% - var(--navbar-height));
+}
+
+[data-component~='main'] .messages-area {
+    height: 100%;
+}
+
+[data-component~='main'] .messages-area ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+@media (min-width: 750px) {
+    [data-component~='main'] {
+      display: flex; 
+      margin-top: calc(-1 * var(--navbar-height));
+    }
+
+    [data-component~='main'] .messages-area {
+      width: calc(100% - var(--sidebar-width));
+    }
+}

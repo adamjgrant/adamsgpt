@@ -20,6 +20,7 @@
     --avatar-width: 22px;
     --navbar-height: 50px;
     --sidebar-width: 325px;
+    --prompt-height: 70px;
 
     /* Breakpoints */
     /* 🚨 Apparently, these can't be used in media queries yet.
@@ -81,4 +82,7 @@ ion-icon {
     font-weight: bold;
     src:url("Fonts/1301013/a0eb948f-0b54-4964-8381-5e97e18cce04.eot?#iefix");
     src:url("Fonts/1301013/a0eb948f-0b54-4964-8381-5e97e18cce04.eot?#iefix") format("eot"),url("Fonts/1301013/bb96c749-749d-48c4-8d63-ae33cc6608bc.woff2") format("woff2"),url("Fonts/1301013/1ac88570-6bba-457a-ad08-ff56a2fcd03b.woff") format("woff"),url("Fonts/1301013/d98a8c18-8404-4699-a1ad-d9ecb49c0f1d.ttf") format("truetype");
+}
+
+@media (min-width: 750px) {
 }

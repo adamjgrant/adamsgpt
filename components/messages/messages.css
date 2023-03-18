@@ -1,5 +1,6 @@
 [data-component~='messages'] {
   list-style: none;
   padding: 0;
-  height: 100%;
+  height: calc(100% - var(--prompt-height));
+  margin: 0;
 }

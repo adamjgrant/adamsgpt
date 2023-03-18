@@ -6,6 +6,10 @@
   --avatar-message-margin: 10px;
 }
 
+[data-component~='message'] .edit {
+    float: right;
+}
+
 [data-component~='message'] .avatar {
     border-radius: 3px;
     background-color: var(--border-grey);

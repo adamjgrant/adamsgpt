@@ -17,5 +17,7 @@ body.show-sidebar [data-component~='sidebar'] {
 @media (min-width: 750px) {
   [data-component~='sidebar'] {
     display: block;
+    position: static;
+    margin-top: var(--navbar-height);
   } 
 }
