@@ -13,6 +13,7 @@
 [data-component~='navbar'] a {
     text-decoration: none;
     color: var(--active-text-color);
+    font-size: 1.2rem;
 }
 
 [data-component~='navbar'] button {

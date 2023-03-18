@@ -21,6 +21,7 @@
     --navbar-height: 50px;
     --sidebar-width: 325px;
     --prompt-height: 70px;
+    --reading-width: 650px;
 
     /* Breakpoints */
     /* 🚨 Apparently, these can't be used in media queries yet.

@@ -15,10 +15,30 @@
         <button role="button" class="add"><ion-icon name="add-outline"></ion-icon></button>
     </nav><main data-component="main">
         <aside data-component="sidebar">
-            <ion-icon name="folder-outline"></ion-icon>
-            <ion-icon name="folder-open-outline"></ion-icon>
-            <ion-icon name="chatbox-outline"></ion-icon>
-            <ion-icon name="chatbox-outline"></ion-icon>
+            <div hidden> <!-- For later use -->
+                <ion-icon name="folder-outline"></ion-icon>
+                <ion-icon name="folder-open-outline"></ion-icon>
+                <ion-icon name="chatbox-outline"></ion-icon>
+                <ion-icon name="chatbox-outline"></ion-icon>
+            </div>
+            <ul>
+                <li>
+                    <a href=""><ion-icon name="folder-open-outline"></ion-icon> Miscellaneous</a>
+                    <ul>
+                        <li>
+                            <a href=""><ion-icon name="chatbox-outline"></ion-icon> New Chat</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a href=""><ion-icon name="folder-outline"></ion-icon> Math</a>
+                    <ul>
+                        <li>
+                            <a><ion-icon name="chatbox-outline"></ion-icon> New Chat</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </aside>
         <div class="messages-area">
             <ul data-component="messages">

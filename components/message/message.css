@@ -1,9 +1,20 @@
 [data-component~='message'] {
+  --reading-padding: calc(50% - var(--reading-width)/2);
   padding: 25px;
+  padding-left: var(--reading-padding);
+  padding-right: var(--reading-padding);
   border-bottom: 1px solid var(--border-grey);
   display: flex;
   justify-content: space-between;
   --avatar-message-margin: 10px;
+}
+
+[data-component~='message']:before,
+[data-component~='message']:after {
+    display: block;
+    content: '';
+    width: 25px;
+    height: 100%;
 }
 
 [data-component~='message'] .edit {
@@ -19,7 +30,7 @@
 }
 
 [data-component~='message'] .text {
-    width: calc(100% - (var(--avatar-width) + var(--avatar-message-margin)));
+    width: calc(100% - (var(--avatar-width) + var(--avatar-message-margin) + 50px));
 }
 
 [data-component~='message'] p {
