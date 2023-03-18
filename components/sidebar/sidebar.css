@@ -10,7 +10,7 @@
   z-index: 1;
 }
 
-[data-component~='sidebar'].show {
+body.show-sidebar [data-component~='sidebar'] {
   display: block;
 }
 
